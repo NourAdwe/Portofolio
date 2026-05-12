@@ -14,7 +14,7 @@ html {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #020617;
+    background: #170202;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,13 +33,13 @@ body {
     line-height: 1.7;
 
     background: linear-gradient(-45deg,
-            #020617,
-            #0f172a,
-            #1e293b,
+            #3a0653,
+            #53095a,
+            #4d0c60,
             #0f172a);
 
     background-size: 400% 400%;
-    /* background-color: pink; */
+    /* background-color: rgb(178, 57, 244); */
     animation: gradientBG 12s ease infinite;
 }
 
@@ -70,7 +70,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background: rgba(15, 23, 42, 0.95);
+    background: rgba(47, 122, 242, 0.95);
     backdrop-filter: blur(10px);
     z-index: 1000;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -78,7 +78,7 @@ body {
 
 .logo {
 
-    color: #38bdf8;
+    color: #f838bf;
 
     width: 30%;
     cursor: pointer;
@@ -90,7 +90,8 @@ body {
 }
 
 .logo span {
-    color: white;
+    color: #f838bf;
+    /* color: white; */
     font-size: 28px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -104,16 +105,17 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: white;
+    color: rgb(223, 192, 221);
     font-size: 15px;
     transition: 0.3s;
 }
 
 .nav-links a:hover {
-    color: #38bdf8;
+    color: #f838bf;
+    /* color: #38bdf8; */
      transform: translateY(-10px) scale(1.1);
-    background: #38bdf8;
-    color: #0f172a;
+    background: #90388b;
+    color: #f5d3f5;
     box-shadow: 0 0 25px rgba(56, 189, 248, 0.6);
 }
 
@@ -162,6 +164,7 @@ body {
 .btn {
     display: inline-block;
     padding: 14px 35px;
+    /* background: #f838bf; */
     background: #38bdf8;
     color: #0f172a;
     text-decoration: none;
@@ -189,7 +192,7 @@ body {
 
 .btn:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(56, 189, 248, 0.3);
+    box-shadow: 0 10px 20px rgba(132, 203, 218, 0.3);
 }
 
 .hero-image {
@@ -223,7 +226,7 @@ body {
 /* ABOUT CARD */
 
 .card {
-    background: #1e293b;
+    background: #9d66e0;
     padding: 40px;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
@@ -231,7 +234,7 @@ body {
 
 .card p {
     margin-bottom: 20px;
-    color: #cbd5e1;
+    color: black;
     font-size: 17px;
 }
 
@@ -245,7 +248,7 @@ body {
 }
 
 .skill-card {
-    background: #1e293b;
+    background: #3f8cb9;
     padding: 20px 35px;
     border-radius: 15px;
     font-weight: 500;
@@ -360,7 +363,7 @@ body {
 /* CONTACT */
 
 .contact-card {
-    background: #1e293b;
+    background: #511b72;
     padding: 40px;
     border-radius: 20px;
     text-align: center;
@@ -402,7 +405,7 @@ body {
 .social-icons a {
     width: 60px;
     height: 60px;
-    background: #1e293b;
+    background: #85239b;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -417,8 +420,8 @@ body {
 
 .social-icons a:hover {
     transform: translateY(-10px) scale(1.1);
-    background: #38bdf8;
-    color: #0f172a;
+    background: #64a1dd;
+    color: #f480c0;
     box-shadow: 0 0 25px rgba(56, 189, 248, 0.6);
 }
 
@@ -427,7 +430,7 @@ body {
 footer {
     padding: 30px;
     text-align: center;
-    background: #020617;
+    background: #240428;
     color: #94a3b8;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
